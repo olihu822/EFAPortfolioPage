@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>Olivia Hudson</title>
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-light bg-dark">
+      <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#aboutMe">About Me</a>
+              <a class="dropdown-item" href="#skills">Skillset</a>
+              <a class="dropdown-item" href="#projects">My Projects</a>
+              <a class="dropdown-item" href="#contact">Contact</a>
+            </div>
+      </div>
+    </nav>
+
+   <div class="jumbotron jumbotron-fluid">
+    <div class="container" center>
+      <h1 class="display-4">Hello there.</h1>
+        <p class="lead d-flex justify-content-center">
+          Looking for a .NET developer?
+        </p>
+    </div>
+  </div>
+                
+<div id="wrapper">
+
+<div id="carouselMain" class="carousel slide carousel-fade" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-caption d-none d-md-block">
+      <p>I'm Olivia Hudson</p>
+        <div class="carousel-caption-inner">
+          <p>Junior Developer</p>
+        </div>
+    </div>
+
+   <div class="carousel-item active" data-interval="3000">
+      <img src="assetsSP/slide1.JPG" class="d-block w-100" alt="slide1">
+   </div>
+        
+   <div class="carousel-item" data-interval="3000">
+     <img src="assetsSP/slide2.JPG" class="d-block w-100" alt="slide2">
+   </div>
+        
+    <div class="carousel-item" data-interval="3000">
+          <img src="assetsSP/slide3.JPG" class="d-block w-100" alt="slide3">
+    </div>
+  </div>
+</div>
+    
+    <div class="card">
+      <div class="card-body">
+        <blockquote class="blockquote mb-0">
+          <p>Try to see things differently - It's the only way to get a clearer perspective on the world and on your life.</p>
+          <footer class="blockquote-footer float-right"> <cite title="Source Title">Neal Shusterman</cite></footer>
+        </blockquote>
+      </div>
+    </div>
+
+    <br>
+
+    <div class = "about d-flex justify-content-center" id="aboutMe">
+      <div class="card mb-3 border-0" style="max-width: 540px;">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="assetsSP/me.jpg" class="card-img" alt="profilePic">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">About Me</h5>
+                <p class="card-text"><small class="text-muted">A burgeoning developer</small></p>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur tenetur sit minus aliquam quam? Ex deserunt soluta magni praesentium, ea esse unde incidunt nobis voluptatum. Ex voluptatibus recusandae eligendi officia.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br>
+      
+      <div class = "skills" id = "skills"> 
+        <div class="card-group d-flex justify-content-center">    
+          <div class="card text-center border-0">
+            <img src="assetsSP/github.svg" class="card-img-top" alt="GitHub">
+            <div class="card-body">
+              <h5 class="card-title">GitHub</h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+          
+          <div class="card text-center border-0">
+            <img src="assetsSP/HTML5.svg" class="card-img-top" alt="HTML5">
+                <div class="card-body">
+                  <h5 class="card-title">HTML5/CSS</h5>
+                  <p class="card-text"></p>
+              </div>
+          </div>
+              
+            <div class="card text-center border-0">
+              <img src="assetsSP/csharp.svg" class="card-img-top" alt="csharp">
+              <div class="card-body">
+                <h5 class="card-title">C#</h5>
+                <p class="card-text"></p>
+              </div>
+            </div>
+            
+            <div class="card text-center border-0">
+              <img src="assetsSP/bootstrap_912605.png" class="card-img-top" alt="bootstrap">
+              <div class="card-body">
+                <h5 class="card-title">Bootstrap</h5>
+                <p class="card-text"></p>
+              </div>
+            </div>
+            
+            <div class="card text-center border-0">
+              <img src="assetsSP/codepen-logo.svg" class="card-img-top" alt="CodePen">
+              <div class="card-body">
+                <h5 class="card-title">CodePen</h5>
+                <p class="card-text"></p>
+              </div>
+            </div>
+        </div>
+      </div>  
+
+</div><!--wrapper-->
+      
+      <div class = "projects" id="projects">
+        <!--thumbnails? of projects-->
+        <h2>Projects</h2>
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  CSS Cat Clock
+                </button>
+              </h2>
+            </div>
+            
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body" href="assetsSP/catclock.png">
+                A simple <a href="https://codepen.io/olihu822/pen/QXYxVO" target_blank>assignment</a> to demonstrate our skills and creativity in CSS. An exercise in finding our "center".
+                <br>
+               
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Dragoste Geckos
+                </button>
+              </h2>
+            </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                      My first attempt at creating a static storefront page to "sell" my pet geckos. 
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Collapsible Group Item #3
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+      <span id= "outer contact col-m-8">
+          <div class = "#Contact d-flex justify-content-center" id="contact">
+            <h2>Contact</h2>
+          </div>
+          </span>
+          <br>
+          <span id= "innercontainer col-m-8">
+          <div class = "CFContainer d-flex justify-content-center">
+            <div class = "Contact col-md-12 ">
+              <form action="https://formspree.io/email@domain.tld" method="POST" >
+                <div class="form-group col-md-4">
+                  <input type="text" name="name" class="form-control" id="InputName" aria-describedby="emailHelp" placeholder="Name">
+                </div>
+                <div class="form-group col-md-4">
+                  <input type="text" name="_replyto" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Email">
+                </div>
+                <div class="form-group col-md-4">
+                  <textarea class= "form-control"  id="InputMessage" placeholder="Your Message" rows="3"></textarea>
+                  <div class="d-flex justify-content-center">
+                    <!-- <button type="submit" value="Send" class="btn btn-primary">Send</button> -->
+                  </div>
+                </form>
+              </div>
+            </div> 
+          </span>
+
+         <br>
+
+            <span id= "linkedin">
+              <div class = "d-flex justify-content-center col-m-8">
+                <br>
+          <h5>You can also find me on <a href = "https://www.linkedin.com/in/olivia-hudson-852909189/" target _blank>LinkedIn</a>! Hope to hear from you soon.</h5>
+        </div>
+      </span>
+      
+      <div class= "row">
+        <small class="text-muted d-flex justify-content-center">©2019 Olivia Hudson</small>
+      </div>  
+      
+  </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

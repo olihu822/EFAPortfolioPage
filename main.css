@@ -1,0 +1,35 @@
+.olivia{
+    z-index: -5;
+    color: black;
+}
+#wrapper{
+    text-align: center;
+}
+
+#carouselMain {
+    display: inline-block;
+    width: 70em;
+    height: 50em;
+}
+
+.carousel-caption {
+    font-size: 5.5em;
+}
+
+.carousel-caption-inner{
+    font-size: 45%;
+}
+
+.skills{
+    display: inline-block;
+    inline-size: 50em;
+}
+
+.contact{
+    display: inline-block;
+    size: 20em;
+}
+
+.linkedIN{
+    display: inline-block;
+}

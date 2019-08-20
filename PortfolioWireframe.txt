@@ -1,0 +1,25 @@
+This application should meet the following requirements (at least) to complete your portfolio:
+
+An HTML file called index.html
+We will be deploying our portfolios out through GitHub Pages which requires an index.html file
+A CSS file called main.css
+A folder called assets
+The following sections:
+        Landing/Header Page
+                Navbar
+                -about me   -Skills/1150?
+                -Resume     -portfolio
+                -Projects   -Contact
+      Picture       partially overlaid with? About Me
+           under^ Developer skills LIST from 1150
+            Resume/LINKEDIN
+                Projects Page (heading with link to detailed page with desc. and dates of project, github, codepen, etc)
+            THUMBNAILS? OF THE FOLLOWING WORKS
+                        Creature Assignment
+                        Store Application
+                        Console Applications
+                        Blue Badge TBA
+                        Red Badge TBA
+          Contact Section using formspree.io, LINKEDIN? 
+        Footer--copyright me
+4ejkk[pd(*?E^HG-)]
